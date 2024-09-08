@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ToDoListItem" representedClassName=".ToDoListItem" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" defaultDateTimeInterval="745069260" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="reminderDate" optional="YES" attributeType="Date" defaultDateTimeInterval="745070280" usesScalarValueType="NO"/>
+    </entity>
+</model>
